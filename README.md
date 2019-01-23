@@ -12,6 +12,7 @@ Astar astar = new Astar();
 
 // create grid of Node's
 Node[,] grid = [gridLengthX, gridLengthY];
+
 // loop over grid and initialise nodes
 Node[] path = astar.FindPath(grid[startPositionX, startPositionY, targetPositionX, targetPositionY, grid]);
 
